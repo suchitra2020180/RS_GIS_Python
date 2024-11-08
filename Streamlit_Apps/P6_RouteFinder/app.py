@@ -78,7 +78,7 @@ if origin and destination:
         
     [distance ,polyline_coords]= distance_api(origin_coor,dest_coor,travel_mode)
     #st.write('Distance')
-    st.text(f'Distance: {distance} km')
+    st.text(f'Distance: {distance/1000} km')
     
     ##Mapping
 if button:
